@@ -1,0 +1,24 @@
+.comment-body {
+    display: flex;
+    width: 70%;
+    background-color: whitesmoke;
+    padding: 2%;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+.comment-body img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+
+@media screen and (max-width: 900px) {
+    
+    .comment-body {
+        width: 100%;
+    }
+    
+
+
+  } 

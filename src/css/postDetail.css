@@ -1,0 +1,161 @@
+.post-page {
+    width: 80%;
+    margin: 0 10%;
+    overflow: hidden;
+    min-height: 80vh;
+}
+.post-menu {
+    margin-top: 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.post-menu-back{
+    display: flex;
+    font-size: 18px;
+    align-items: center;
+    color: #00337C;
+    justify-content: space-between;
+    cursor: pointer;
+    font-weight: 600;
+}
+.post-menu-back p {
+    margin: 0;
+}
+
+.post-menu-fav{
+    display: flex;
+    font-size: 18px;
+    align-items: center;
+    color: #00337C;
+    justify-content: space-between;
+    cursor: pointer;
+    font-weight: 600;
+}
+.post-menu-fav p {
+    margin: 0;
+}
+
+.post-body {
+    width: 85%;
+    margin: 30px 7.5%;
+}
+
+.post-title {
+    text-align: center;
+}
+
+.post-img {
+    margin: 25px 0;
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+}
+
+.post-img img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.post-body-p {
+    font-size: 18px;
+    line-height: 1.9;
+}
+
+.post-author {
+    margin-bottom: 30px;
+}
+
+.post-author-body {
+    display: flex;
+    align-items: center;
+}
+
+.post-author h3{
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+
+.post-author-img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 15px;
+
+}
+
+.post-comment {
+    margin-top: 15px;
+}
+
+.post-comment-input {
+    padding: 2%;
+    background-color: whitesmoke;
+    width: 70%;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+    justify-content: space-between;
+}
+
+.post-comment-input input {
+    padding: 7.5px;
+    width: stretch;
+    margin-right: 20px;
+    border-radius: 10px;
+}
+
+.post-comment h3 {
+    font-size: 22px;
+}
+
+@media screen and (max-width: 900px) {
+    
+    .post-page{
+        width: 90%;
+        margin: 0 5%;
+    }
+
+    .post-img {
+        height: 300px;
+        
+    }
+
+    .post-comment-input {
+        
+        width: 100%;
+        
+    }
+
+
+  } 
+
+  @media screen and (max-width: 600px) {
+    
+    .post-page{
+        width: 94%;
+        margin: 0 3%;
+    }
+
+    .post-img {
+        height: 250px;
+        
+    }
+
+    .post-body {
+        width: 100%;
+        margin: 30px 0;
+    }
+
+    .post-body-p {
+        font-size: 16px;
+        line-height: 1.7;
+    }
+
+
+  } 
+  
